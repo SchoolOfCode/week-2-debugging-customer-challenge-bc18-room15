@@ -6,11 +6,10 @@ while (playAgain === false)
   const userGuess = prompt("Guess a number between 1 and 10:"); // meant to: We want a game where a player takes a guess at a number between 1 and 10
 
   if (userGuess = randomnumber) {
-    alert("Congratulations! You guessed the correct number.");
+    alert("Congratulations! You guessed the correct number."); //the score goes up by 1 when the correct answer is guessed. 
     score++;
   } else {
-    alert(`Sorry, the correct number was ${randomnumber}. You lose.`);
-    score++;
+    alert(`Sorry, the correct number was ${randomnumber}. You lose.`); 
   }
 
   playAgain = confirm("Do you want to play again?");
@@ -26,7 +25,7 @@ while (playAgain === false)
 
 
 //- You should keep score, and if a player guesses correctly, you should add to the score
-
+//bug2: the score goes up by 1 even after loosing. 
 
 
 
